@@ -2,6 +2,10 @@
     font-family: Roboto;
     src: url(Fonts/Roboto-Regular.ttf);
 }
+@font-face{
+  font-family: Josefin sans;
+  src: url(Fonts/JosefinSans-VariableFont_wght.ttf);
+}
 
 .header
 {
@@ -40,7 +44,9 @@
     font-family: roboto; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
   }
-
+.dropdown1{
+  float: left;
+}
   .dropdown1 .dropbtn {
     font-size: 13px;
     font-weight: bold;
@@ -84,5 +90,37 @@
     background-color: inherit;
     font-family: roboto; /* Important for vertical align on mobile phones */
     margin: 0; /* Important for vertical align on mobile phones */
-  
+  }
+  .blue
+  {
+    color: #142b6f;
+  }
+  .bold
+  {
+    font-weight: bold;
+  }
+  h1
+  {
+    font-family: Josefin sans;
+    margin-top: 60px;
+    text-align: center;
+  }
+  .center
+  {
+    text-align: center;
+  }
+  .choose-box-btn
+  {
+    background-color: #142b6f;
+    color: #fff88d;
+    font-size: 11px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 0px !important;
+    font-family: roboto;
+  }
+  .btn-div
+  {
+    text-align: center;
   }
