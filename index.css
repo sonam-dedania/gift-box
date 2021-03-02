@@ -1,0 +1,88 @@
+@font-face{
+    font-family: Roboto;
+    src: url(Fonts/Roboto-Regular.ttf);
+}
+
+.header
+{
+    background-color: #fdd7d4;
+    padding: 10px;
+}
+.black-header
+{
+    font-family: Roboto;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+.black-header p
+{
+    margin-bottom: 0px !important;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: #142b6f;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: roboto; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  .dropdown1 .dropbtn {
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: #142b6f;
+    padding: 10px 12px;
+    border-radius: 8%;
+    background-color: #ffffff;
+    font-family: roboto; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+ 
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .menu-p
+  {
+    font-size: 13px;
+    font-weight: bold;
+    color: #142b6f;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: roboto; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  
+  }
