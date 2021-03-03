@@ -57,7 +57,7 @@
     border-radius: 8%;
     background-color: #ffffff;
     font-family: roboto; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    margin-top: 6px; /* Important for vertical align on mobile phones */
   }
   .dropdown-content {
     display: none;
@@ -86,10 +86,10 @@
     font-size: 13px;
     font-weight: bold;
     color: #142b6f;
+    display: inline;
     padding: 14px 16px;
     background-color: inherit;
     font-family: roboto; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
   }
   .blue
   {
@@ -120,7 +120,137 @@
     border-radius: 0px !important;
     font-family: roboto;
   }
+  .strike
+  {
+    text-decoration: line-through;
+  }
+  .image-space
+  {
+    margin-right: 35px;
+    margin-left: -35px;
+  }
+  .checkout-div
+  {
+    margin-top: 30px;
+  }
   .btn-div
   {
     text-align: center;
   }
+.fingure-image-div
+{
+  transform: rotate(40deg);
+  display: inline-block;
+  margin-left: 70px;
+}
+.right-menuber
+{
+  margin-top: 13px;
+}
+.dotted-div
+{
+  border: dashed 1px #142b6f;
+  font-size: 10px;
+}
+.second-div
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.second-div p
+{
+  font-family: Josefin sans;
+}
+.third-div p
+{
+  font-family: Josefin sans;
+}
+.third-div
+{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+}
+.mrg-top
+{
+  margin-top: 14px;
+}
+h4
+{
+  color: #142b6f;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Josefin sans;
+}
+.Img7-jpg
+{
+  position: relative;
+}
+.Img8-Gif
+{
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -70px;
+  margin-left: 230px;
+}
+h5
+{
+  color: #142b6f;
+  font-size: 18px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-family: Josefin sans;
+}
+.third-div
+{
+  padding: 30px;
+}
+.fourth-div
+{
+  font-family: Josefin sans;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.fourth-div img
+{
+  vertical-align: middle;
+  margin-top: 20px;
+  height: 40px;
+}
+.fifth-div
+{
+  background-color: #fff88d;
+  padding-top: 30px;
+  font-family: Josefin sans;
+  padding-bottom: 30px;
+  padding-left: 160px;
+  padding-right: 160px;
+  margin-left: 160px;
+  margin-right: 160px;
+  text-align: center;
+}
+.fifth-div h5
+{
+  margin-bottom: 30px;
+}
+.fifth-p
+{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.fifth-p1
+{
+  font-size: 15px;
+  color: #142b6f;
+}
