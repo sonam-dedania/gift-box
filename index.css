@@ -233,11 +233,13 @@ h5
   background-color: #fff88d;
   padding-top: 30px;
   font-family: Josefin sans;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
   padding-left: 160px;
   padding-right: 160px;
   margin-left: 160px;
   margin-right: 160px;
+  margin-bottom: 150px;
+  margin-top: 120px;
   text-align: center;
 }
 .fifth-div h5
@@ -253,4 +255,44 @@ h5
 {
   font-size: 15px;
   color: #142b6f;
+}
+.slider-left
+{
+  background-color: #fff88d !important;
+  width: 0% !important;
+  text-shadow: none !important;
+  color: #000000 !important;
+  left: -80px !important;
+  top: 100px !important;
+}
+.slider-right
+{
+  background-color: #fff88d !important;
+  width: 0% !important;
+  text-shadow: none !important;
+  color: #000000 !important;
+  top: 100px !important;
+  right: -53px !important;
+}
+.slider-indicator
+{
+  top: 140px !important;
+}
+.slider-indicator .active
+{
+  background-color: #142b6f !important;
+}
+.slider-indicator li
+{
+  border: 1px solid #142b6f !important;
+  width: 8px !important;
+  height: 8px !important;
+}
+.slider-img
+{
+  text-align: center;
+}
+.footer-div
+{
+  
 }
