@@ -20,7 +20,11 @@
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden-lg hidden-md">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden-sm hidden-xs">
+
                     <div class="dropdown">
                         <button class="dropbtn">Shop Boxes
                             <i class="fa fa-angle-down" aria-hidden="true"></i>
@@ -40,7 +44,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                     <div class="dropdown1">
-                        <button class="dropbtn"><img src="Images/download.png" /> &#x2002;INR&#x2002;
+                        <button class="dropbtn hidden-xs"><img src="Images/download.png" /> &#x2002;INR&#x2002;
                             <i class="fa fa-caret-down" aria-hidden="true"></i>
                         </button>
                         <div class="dropdown-content">
@@ -50,9 +54,9 @@
                         </div>
                     </div>
                     <div class="right-menuber">
-                        <p class="menu-p">What?</p>
-                        <p class="menu-p">Shipping</p>
-                        <p class="menu-p"><i class="fa fa-user-o" aria-hidden="true"></i></p>
+                        <p class="menu-p hidden-sm hidden-xs">What?</p>
+                        <p class="menu-p hidden-sm hidden-xs">Shipping</p>
+                        <p class="menu-p hidden-xs"><i class="fa fa-user-o" aria-hidden="true"></i></p>
                         <p class="menu-p"><i class="fa fa-shopping-cart" aria-hidden="true"></i></p>
                     </div>
                 </div>
@@ -67,149 +71,245 @@
                     <div class="btn-div">
                         <button class="btn choose-box-btn">CHOOSE YOUR BOX</button>
                     </div>
-                    <div class="fingure-image-div">
+                    <div class="fingure-image-div hidden-sm hidden-xs">
                         <img src="Images/finger-point.gif" alt="finger-point" />
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <img src="Images/Img2.jpg" alt="Img2" />
+                    <img src="Images/Img2.jpg" class="img2-size" alt="Img2" />
                 </div>
             </div>
         </div>
     </div>
     <div class="second-div">
-        <h4>Here's how it works</h4>
         <div class="container">
-            <div class="row center">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mrg-top">
-                    <img src="Images/Img3.png" alt="Img3" />
-                    <h5>Pick out your box</h5>
-                    <p>Order for yourself or send the gift to your family or friends.</p>
+            <h4>Here's how it works</h4>
+            <div class="container hidden-sm hidden-xs">
+                <div class="row center">
+                    <div class="col-lg-4 col-md-4 mrg-top">
+                        <img src="Images/Img3.png" alt="Img3" />
+                        <h5>Pick out your box</h5>
+                        <p>Order for yourself or send the gift to your family or friends.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <img src="Images/Img4.png" alt="Img3" />
+                        <h5>Lovingly made</h5>
+                        <p>After your order, we get to work to create your box from scratch.</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 mrg-top">
+                        <img src="Images/Img5.png" alt="Img3" />
+                        <h5>Packed and shipped out</h5>
+                        <p>Within 1-3 days of ordering, your box is sent on its way!</p>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <img src="Images/Img4.png" alt="Img3" />
-                    <h5>Lovingly made</h5>
-                    <p>After your order, we get to work to create your box from scratch.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 mrg-top">
-                    <img src="Images/Img5.png" alt="Img3" />
-                    <h5>Packed and shipped out</h5>
-                    <p>Within 1-3 days of ordering, your box is sent on its way!</p>
+            </div>
+            <div id="myCarousel" class="carousel slide center hidden-lg hidden-md" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators slider-indicator slider-indicator2">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="slider-img">
+                            <img src="Images/Img3.png" alt="Img3" />
+                        </div>
+                        <h5>Pick out your box</h5>
+                        <p>Order for yourself or send the gift to your family or friends.</p>
+                    </div>
+
+                    <div class="item">
+                        <div class="slider-img">
+                            <img src="Images/Img4.png" alt="Img3" />
+                        </div>
+                        <h5>Lovingly made</h5>
+                        <p>After your order, we get to work to create your box from scratch.</p>
+                    </div>
+
+                    <div class="item">
+                        <div class="slider-img">
+                            <img src="Images/Img5.png" alt="Img3" />
+                        </div>
+                        <h5>Packed and shipped out</h5>
+                        <p>Within 1-3 days of ordering, your box is sent on its way!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="third-div">
-        <h4>Shop Instagram favorites</h4>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8 image-space">
-                    <img src="Images/Img6.jpg" alt="Img6" />
-                    <h5>The 'Late night at 2am' box</h5>
-                    <p>For the guy that has <span class="strike">everything</span>... some stuff going for them. Nothing
-                        better
-                        than crackin' this
-                        box open after a late night of Netflix and chill.</p>
-                    <button class="btn choose-box-btn">CHECK IT OUT</button>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
-                    <img src="Images/Img8.gif" alt="" class="Img8-Gif" />
-                    <img src="Images/Img7.jpg" alt="Img7" class="Img7-jpg" />
-                    <h5>The 'Treat Yo' Self' box</h5>
-                    <p>It's time to unwind. Treat your loved-ones, or just treat yo' self to a relaxing night in with
-                        the Treat Yo' Self box.</p>
-                    <div class="checkout-div">
-                        <button class="btn choose-box-btn">CHECK IT OUT</button>
+            <h4>Shop Instagram favorites</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 image-space">
+                        <img src="Images/Img6.jpg" class="img6-size" alt="Img6" />
+                        <h5>The 'Late night at 2am' box</h5>
+                        <div class="p-width">
+                            <p>For the guy that has <span class="strike">everything</span>... some stuff going for them.
+                                Nothing
+                                better
+                                than crackin' this
+                                box open after a late night of Netflix and chill.</p>
+                        </div>
+                        <button class="btn choose-box-btn1">CHECK IT OUT</button>
                     </div>
-                </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <img src="Images/Img8.gif" alt="" class="Img8-Gif" />
+                        <img src="Images/Img7.jpg" alt="Img7" class="img6-size Img7-jpg" />
+                        <h5>The 'Treat Yo' Self' box</h5>
+                        <div class="p-width">
+                            <p>It's time to unwind. Treat your loved-ones, or just treat yo' self to a relaxing night in
+                                with
+                                the Treat Yo' Self box.</p>
+                        </div>
+                        <div class="checkout-div">
+                            <button class="btn choose-box-btn1">CHECK IT OUT</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="fourth-div">
-        <h5>Our treats have been featured on</h5>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-2 col-md-2">
-                    <img src="Images/Img9.jpg" alt="Img9" />
+            <h5>Our treats have been featured on</h5>
+            <div class="container hidden-sm hidden-xs">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2">
+                        <img src="Images/Img9.jpg" alt="Img9" />
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <img src="Images/Img10.jpg" alt="Img10" />
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <img src="Images/Img11.jpg" alt="Img11" />
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <img src="Images/Img12.jpg" alt="Img12" />
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <img src="Images/Img13.jpg" alt="Img13" />
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <img src="Images/Img14.jpg" alt="Img14" />
+                    </div>
                 </div>
-                <div class="col-lg-2 col-md-2">
-                    <img src="Images/Img10.jpg" alt="Img10" />
+            </div>
+
+            <div id="myCarousel1" class="carousel slide hidden-lg hidden-md hidden-sm" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators slider-indicator3">
+                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel1" data-slide-to="1"></li>
+                    <li data-target="#myCarousel1" data-slide-to="2"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="Images/Img9.jpg" alt="Img9" />&#x2003;
+                        <img src="Images/Img10.jpg" alt="Img10" />
+                    </div>
+
+                    <div class="item">
+                        <img src="Images/Img11.jpg" alt="Img11" />&#x2003;
+                        <img src="Images/Img12.jpg" alt="Img12" />
+                    </div>
+
+                    <div class="item">
+                        <img src="Images/Img13.jpg" alt="Img13" />&#x2003;
+                        <img src="Images/Img14.jpg" alt="Img14" />
+                    </div>
                 </div>
-                <div class="col-lg-2 col-md-2">
-                    <img src="Images/Img11.jpg" alt="Img11" />
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <img src="Images/Img12.jpg" alt="Img12" />
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <img src="Images/Img13.jpg" alt="Img13" />
-                </div>
-                <div class="col-lg-2 col-md-2">
-                    <img src="Images/Img14.jpg" alt="Img14" />
+            </div>
+
+            <div id="myCarousel2" class="carousel slide hidden-lg hidden-md hidden-xs" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators slider-indicator slider-indicator1">
+                    <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel2" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="Images/Img9.jpg" alt="Img9" />&#x2003;
+                        <img src="Images/Img10.jpg" alt="Img10" />&#x2003;
+                        <img src="Images/Img11.jpg" alt="Img11" />&#x2003;
+                    </div>
+
+                    <div class="item">
+                        <img src="Images/Img12.jpg" alt="Img12" />&#x2003;
+                        <img src="Images/Img13.jpg" alt="Img13" />&#x2003;
+                        <img src="Images/Img14.jpg" alt="Img14" />&#x2003;
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="fifth-div">
-        <h5>What our customers are saying</h5>
+        <div class="container">
+            <h5>What our customers are saying</h5>
+            <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators slider-indicator">
+                    <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel3" data-slide-to="1"></li>
+                    <li data-target="#myCarousel3" data-slide-to="2"></li>
+                </ol>
 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators slider-indicator">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <div class="slider-img">
-                        <img src="Images/Img15.png" alt="Img15.png" />
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div class="slider-img">
+                            <img src="Images/Img15.png" alt="Img15.png" />
+                        </div>
+                        <p class="fifth-p">Finally, a gift box that isn't the same old boring products you see
+                            everything. I
+                            love everything about them!
+                        </p>
+                        <p class="fifth-p1">&#x2013; Emily Corbett</p>
                     </div>
-                    <p class="fifth-p">Finally, a gift box that isn't the same old boring products you see everything. I
-                        love everything about them!
-                    </p>
-                    <p class="fifth-p1">&#x2013; Emily Corbett</p>
+
+                    <div class="item">
+                        <div class="slider-img">
+                            <img src="Images/Img15.png" alt="Img15.png" />
+                        </div>
+                        <p class="fifth-p">Finally, a gift box that isn't the same old boring products you see
+                            everything. I
+                            love everything about them!
+                        </p>
+                        <p class="fifth-p1">&#x2013; Emily Corbett</p>
+                    </div>
+
+                    <div class="item">
+                        <div class="slider-img">
+                            <img src="Images/Img15.png" alt="Img15.png" />
+                        </div>
+                        <p class="fifth-p">Finally, a gift box that isn't the same old boring products you see
+                            everything. I
+                            love everything about them!
+                        </p>
+                        <p class="fifth-p1">&#x2013; Emily Corbett</p>
+                    </div>
                 </div>
 
-                <div class="item">
-                    <div class="slider-img">
-                        <img src="Images/Img15.png" alt="Img15.png" />
-                    </div>
-                    <p class="fifth-p">Finally, a gift box that isn't the same old boring products you see everything. I
-                        love everything about them!
-                    </p>
-                    <p class="fifth-p1">&#x2013; Emily Corbett</p>
-                </div>
-
-                <div class="item">
-                    <div class="slider-img">
-                        <img src="Images/Img15.png" alt="Img15.png" />
-                    </div>
-                    <p class="fifth-p">Finally, a gift box that isn't the same old boring products you see everything. I
-                        love everything about them!
-                    </p>
-                    <p class="fifth-p1">&#x2013; Emily Corbett</p>
-                </div>
+                <!-- Left and right controls -->
+                <a class="left carousel-control slider-left" href="#myCarousel3" data-slide="prev">
+                    <span><i class="fa fa-long-arrow-left" aria-hidden="true"></i></span>
+                </a>
+                <a class="right carousel-control slider-right" href="#myCarousel3" data-slide="next">
+                    <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                </a>
             </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control slider-left" href="#myCarousel" data-slide="prev">
-                <span><i class="fa fa-long-arrow-left" aria-hidden="true"></i></span>
-            </a>
-            <a class="right carousel-control slider-right" href="#myCarousel" data-slide="next">
-                <span><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
-            </a>
         </div>
     </div>
-
     <div class="footer-div">
-        <div class="container">
+        <div class="container hidden-sm hidden-xs">
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <ul class="simple">
@@ -239,16 +339,91 @@
                         <p class="btn-p"><button class="btn choose-box-btn">SUBSCRIBE</button></p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <p class="copyright-p">&#x00A9; Copyright 2021, What The Box?. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container hidden-lg hidden-md hidden-xs">
+            <div class="row">
+                <div class="col-sm-3">
+                    <ul class="simple">
+                        <li>Shop Boxes</li>
+                        <li>Build a Box</li>
+                        <li>Buy a Gift Card</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="simple">
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Shipping Policy</li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <p class="follow-p">Follow us</p>
+                    <p class="follow-p">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>&#x2002;
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <p class="follow-p">Sign up for special offers</p>
+                    <div class="input-div">
+                        <p><input type="text" placeholder="Your email" /></p>
+                        <p><button class="btn choose-box-btn">SUBSCRIBE</button></p>
+                    </div>
+                </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 col-md-12">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <p class="copyright-p">&#x00A9; Copyright 2021, What The Box?. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
-        <div class="Img-div">
+        <div class="container hidden-lg hidden-md hidden-sm">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="simple">
+                        <li>Shop Boxes</li>
+                        <li>Build a Box</li>
+                        <li>Buy a Gift Card</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12">
+                    <ul class="simple">
+                        <li>About Us</li>
+                        <li>Contact Us</li>
+                        <li>Shipping Policy</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12">
+                    <p class="follow-p">Follow us</p>
+                    <p class="follow-p">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>&#x2002;
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    <p class="follow-p">Sign up for special offers</p>
+                    <div class="input-div">
+                        <p class="input-p"><input type="text" placeholder="Your email" /></p>
+                        <p class="btn-p"><button class="btn choose-box-btn">SUBSCRIBE</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <p class="copyright-p">&#x00A9; Copyright 2021, What The Box?. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+        <div class="Img-div hidden-xs">
             <img src="Images/Img16.png" alt="Img16" />
         </div>
+    </div>
     </div>
 </body>
 
