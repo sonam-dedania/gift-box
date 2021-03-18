@@ -121,7 +121,7 @@
     background-color: #142b6f;
     color: #fff88d;
     font-size: 11px;
-    padding-top: 11px;
+    padding-top: 10px;
     padding-bottom: 11px;
     padding-left: 18px;
     padding-right: 18px;
@@ -297,6 +297,7 @@ h5
 .slider-indicator3 .active
 {
   background-color: #142b6f !important;
+  margin: 1px !important;
 }
 .slider-indicator3 li
 {
@@ -311,6 +312,7 @@ h5
 .slider-indicator .active
 {
   background-color: #142b6f !important;
+  margin: 1px !important;
 }
 .slider-indicator li
 {
@@ -405,8 +407,8 @@ ul li
     right: 70px !important;
   }
   .footer-div{
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
   .img6-size
   {
@@ -448,5 +450,19 @@ ul li
   }
   .footer-div ul{
     margin-left: -37px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 992px){
+  .Img-div{
+    margin-left: 900px;
+  }
+  .img2-size{
+    width: 450px;
+  }
+  .container{
+    width: auto;
+  }
+  .btn-p{
+    left: 130px;
   }
 }
