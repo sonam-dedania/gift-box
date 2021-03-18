@@ -437,16 +437,18 @@ ul li
     margin-right: 10px;
   }
   .slider-left{
-    left: 40px !important;
+    left: 20px !important;
+    top: 150px !important;
   }
   .slider-right{
-    right: 50px !important;
+    right: 30px !important;
+    top: 150px !important;
   }
   .slider-indicator3{
     top: 100px !important;
   }
   .slider-indicator{
-    top: 190px !important;
+    top: 230px !important;
   }
   .footer-div ul{
     margin-left: -37px;
